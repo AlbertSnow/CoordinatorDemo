@@ -24,6 +24,7 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name="com.sample.foo.usingcoordinatorlayout.CustomBehaviorActivity" />
         <activity android:name="com.sample.foo.usingcoordinatorlayout.CustomBehaviorActivity2" />
+        <activity android:name="com.sample.foo.usingcoordinatorlayout.CustomBehaviorActivity3" />
 
     </application>
 

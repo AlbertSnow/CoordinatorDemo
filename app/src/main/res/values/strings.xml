@@ -5,7 +5,8 @@
     <string name="fab_two_widgets">Fab Follows Widget</string>
     <string name="collapsing_toolbar">Collapsing Toolbar</string>
     <string name="custom_behavior">Custom Behavior</string>
-    <string name="custom_behavior2">Custom Behavior 2</string>
+    <string name="custom_layout_2">Custom layout 2</string>
+    <string name="custom_layout_3">Custom layout 3</string>
 
     <string name="show_snackbar">Show Snackbar</string>
 

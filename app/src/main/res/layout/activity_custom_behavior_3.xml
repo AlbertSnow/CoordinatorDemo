@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@id/custom_top_title">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/collapsingToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fitsSystemWindows="true"
+            app:layout_scrollFlags="scroll">
+
+            <TextView
+                android:id="@+id/custom_2tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1234\n12\n12\n12\n12\n12\n12\n12\n12\n12"
+                android:textColor="#FFFFFF" />
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="bottom"
+                android:scaleType="fitXY"
+                android:src="@drawable/mascot" />
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:layout_gravity="bottom"
+            android:scaleType="fitXY"
+            android:src="@drawable/mascot"
+            app:layout_anchor="@id/custom_2tv" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:background="#FF0000"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="#FF0000"
+            android:textColor="#00FF00"
+            android:text="12\n12\n2\n12\n1212\n12\n1212\n12\n1212\n12\n122\n12\n1212\n12\n1212\n12\n1212\n12\n122\n12\n1212\n12\n1212\n12\n1212\n12\n122\n12\n1212\n12\n1212\n12\n1212\n12\n1212\n12\n1212\n12\n12\n12\n1212\n12\n12\n12\n1212\n12\n12\n12\n1212\n12\n12\n12\n1212\n12\n12\n12\n1212\n12\n12\n12\n1212\n12\n12\n12\n12\n12\n12\n12\n12\n12\n12\n12\123455" />
+
+    </androidx.core.widget.NestedScrollView>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:background="#FF0000"
+        android:layout_marginLeft="150dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:background="#00FF00"
+            android:textColor="#FF0000"
+            android:text="12\n12\n1212\n12\n1212\n12\n1212\n12\n122\n12\n1212\n12\n1212\n12\n1212\n12\n122\n12\n1212\n12\n1212\n12\n1212\n12\n122\n12\n1212\n12\n1212\n12\n1212\n12\n122\n12\n1212\n12\n1212\n12\n1212\n12\n1212\n12\n1212\n12\n1212\n12\n1212\n12\n1212\n12\n1212\n12\n1212\n12\n1212\n12\n1212\n12\n1212\n12\n1212\n12\n12\n12\n1212\n12\n12\n12\n1212\n12\n12\n12\n1212\n12\n12\n12\n1212\n12\n12\n12\n1212\n12\n12\n12\n1212\n12\n12\n12\n1212\n12\n12\n12\n12\n12\n12\n12\n12\n12\n12\n12\123455" />
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

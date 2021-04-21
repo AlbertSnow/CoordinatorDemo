@@ -53,17 +53,22 @@ public class MainActivity extends Activity {
                 startActivity(new Intent(MainActivity.this, CustomBehaviorActivity.class));
             }
         });
-        findViewById(R.id.customBehaviorButton2).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.customBehaviorButton3).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, CustomBehaviorActivity2.class));
+                startActivity(new Intent(MainActivity.this, CustomBehaviorActivity3.class));
             }
         });
     }
 
+    boolean firstArrive = true;
+
     @Override
     protected void onResume() {
         super.onResume();
-//        startActivity(new Intent(MainActivity.this, CustomBehaviorActivity2.class));
+        if (firstArrive) {
+            firstArrive = !firstArrive;
+            startActivity(new Intent(MainActivity.this, CustomBehaviorActivity2.class));
+        }
     }
 }
