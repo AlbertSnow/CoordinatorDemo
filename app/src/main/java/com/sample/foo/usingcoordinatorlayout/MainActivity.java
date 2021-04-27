@@ -66,9 +66,9 @@ public class MainActivity extends Activity {
     @Override
     protected void onResume() {
         super.onResume();
-        if (firstArrive) {
-            firstArrive = !firstArrive;
-            startActivity(new Intent(MainActivity.this, CustomBehaviorActivity2.class));
-        }
+//        if (firstArrive) {
+//            firstArrive = !firstArrive;
+//            startActivity(new Intent(MainActivity.this, CustomBehaviorActivity2.class));
+//        }
     }
 }
